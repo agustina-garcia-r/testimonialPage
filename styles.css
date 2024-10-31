@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora';
+    background-color: #FAFAF9;
+}
+
+.main-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.circle img {
+    max-width: 24px;
+    height: auto;
+}
+
+.circle {
+    max-width: 50px;
+    height: 50px;
+    background-color: #F5C044;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checklist-section .checklist {
+    display: flex;
+    gap: 1em;
+}
+
+
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.testimonial-container {
+    max-width: 77%; 
+    background-color: #ffffff;
+    padding: 1rem;
+    padding-left: 2em;
+    padding-top: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1em 1em 1em #ddd;
+}
+
+.testimonial-header {
+    display: flex;
+    gap: 0.4em;
+    align-items: center;
+}
+
+.google {
+    margin-left: 7em; 
+}
+
+.logo {
+    max-width: 5rem;
+}
+
+.testimonial-body h3 {
+    font-weight: 600;
+}
+
+.testimonial-body p {
+    color: #52525A;
+}
+
+@media (max-width: 720px) {
+ 
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
